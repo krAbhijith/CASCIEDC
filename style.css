@@ -118,7 +118,6 @@ body{
     margin-top: 8rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 5rem;
     row-gap: 6rem;
 }
 .member-card-img{
@@ -222,6 +221,12 @@ footer{
     .members-container{
         grid-template-columns: 1fr;
         row-gap: 2rem;
+    }
+    .lead-card{
+        gap: 10px;
+    }
+    .card-2 .card-desc{
+        text-align: end;
     }
     .member-card{
         display: flex;
